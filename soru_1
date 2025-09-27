@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+float sayi_1;
+float sayi_2;
+
+int main()
+{
+    printf("Lutfen bir sayi girin:");
+    scanf("%f", &sayi_1);
+    printf("Lutfen bir sayi daha girin:");
+    scanf("%f", &sayi_2);
+    printf("Sayilarin toplami:%.2f\n", sayi_1 + sayi_2);
+    printf("Sayilarin farki:%.2f\n", sayi_1 - sayi_2);
+    printf("Sayilarin çarpimi:%.2f\n", sayi_1 * sayi_2);
+    printf("Sayilarin bolumu:%.2f\n", sayi_1 / sayi_2);
+    return 0;
+}
