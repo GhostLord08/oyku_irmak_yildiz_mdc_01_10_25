@@ -1,0 +1,54 @@
+#include <stdio.h>
+#include <stdio.h>
+
+int main() {
+    int not1, not2, not3, not4;
+    float ortalama;
+
+    for (int i = 1; i <= 5; i++) {
+        printf("%d. ogrencinin 4 notunu giriniz:\n", i);
+
+
+        printf("Not 1: ");
+        scanf("%d", &not1);
+        while (not1 < 0 || not1 > 100) {
+            printf("Hatali not! (0-100 arasi giriniz): ");
+            scanf("%d", &not1);
+        }
+
+
+        printf("Not 2: ");
+        scanf("%d", &not2);
+        while (not2 < 0 || not2 > 100) {
+            printf("Hatali not! (0-100 arasi giriniz): ");
+            scanf("%d", &not2);
+        }
+
+
+        printf("Not 3: ");
+        scanf("%d", &not3);
+        while (not3 < 0 || not3 > 100) {
+            printf("Hatali not! (0-100 arasi giriniz): ");
+            scanf("%d", &not3);
+        }
+
+
+        printf("Not 4: ");
+        scanf("%d", &not4);
+        while (not4 < 0 || not4 > 100) {
+            printf("Hatali not! (0-100 arasi giriniz): ");
+            scanf("%d", &not4);
+        }
+
+        ortalama = (not1 + not2 + not3 + not4) / 4.0;
+
+        printf("%d. ogrencinin ortalamasi: %.2f - ", i, ortalama);
+
+        if (ortalama < 50)
+            printf("Kaldi\n");
+        else
+            printf("Gecti\n");
+    }
+
+    return 0;
+}
