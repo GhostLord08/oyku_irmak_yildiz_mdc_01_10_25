@@ -8,8 +8,8 @@ int main()
     printf("Bir harf giriniz:");
     scanf("%c", &harf);
 
-    if(harf == 'a' || harf == 'e' || harf == 'i' || harf == 'o' || harf == 'u' ||
-        harf == 'A' || harf == 'E' || harf == 'I' || harf == 'O' || harf == 'U')
+    if(harf == 'a' || harf == 'A' || harf == 'E' || harf == 'e' || harf == 'ı' || harf == 'I'|| harf == 'i'|| harf == 'İ'||
+        harf == 'o' || harf == 'Ö' || harf == 'u' || harf == 'Ü')
         {
             printf("harfiniz sesli bir harftir\n");
         }
