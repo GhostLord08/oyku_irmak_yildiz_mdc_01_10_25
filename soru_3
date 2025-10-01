@@ -9,7 +9,7 @@ int main()
     scanf("%c", &harf);
 
     if(harf == 'a' || harf == 'A' || harf == 'E' || harf == 'e' || harf == 'ı' || harf == 'I'|| harf == 'i'|| harf == 'İ'||
-        harf == 'o' || harf == 'Ö' || harf == 'u' || harf == 'Ü')
+        harf == 'o' || harf == 'Ö' || harf == 'O'|| harf == 'ö' harf == 'u' || harf == 'Ü'|| harf == 'U'|| harf == 'Ü')
         {
             printf("harfiniz sesli bir harftir\n");
         }
